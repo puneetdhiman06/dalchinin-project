@@ -6,6 +6,7 @@ import { CartContext } from '../pages/Homepage';
 
 import './Navbar.css';
 import '../shared/Button.css';
+import CheckoutModal from '../shared/CheckoutModal';
 
 
 const CardContext = () => {
@@ -17,10 +18,14 @@ const CardContext = () => {
     setShowModal(false);
   }
 
+
+  const [showCheckoutModal,setShowCheckoutModal]=useState(false);
+
     const {item,totalItem,totalAmount} = useContext(CartContext);
 
   return <React.Fragment>
-    {<Modal show={showModal} onCancel={modalHandler2} header={"Cart Details"} content={item} totalAmount={totalAmount}totalItem={totalItem}/>}
+    <Modal show={showModal} onCancel={modalHandler2} header={"Cart Details"} content={item} totalAmount={totalAmount}totalItem={totalItem}/>
+    {showCheckoutModal && <CheckoutModal onClose={()=>setShowCheckoutModal(false)} totalAmount={totalAmount}totalItem={totalItem}/>}
     <div>
     <div className='main-content'>
         {item.map( (currItem)=>{
@@ -30,12 +35,12 @@ const CardContext = () => {
     <div className='footer'>
         <div className="container">
             <p className='pTag'>
-            <button onClick={cartModalHandler} className='space spaceCard'>
+            {!showCheckoutModal &&<button onClick={cartModalHandler} className='space spaceCard'>
                 <span>{totalItem} item(s)</span><br/><br/>
                 <span>Total : {'₹'+totalAmount}</span>
-            </button>
+            </button>}
             <a href='/login'><button className='space'>Login</button></a>
-            <a href='/checkout'><button className='space'>Continue</button></a>
+            <button className='space' onClick={()=>{setShowCheckoutModal(true)}}>{showCheckoutModal?'Pay':'Continue'}</button>
             </p>
         </div>
     </div>

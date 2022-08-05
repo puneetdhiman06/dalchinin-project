@@ -1,0 +1,17 @@
+.buttonShape{
+margin-left: 16%;
+margin-top: -12rem;
+}
+.modalSize{
+   height: 9rem;
+}
+.h2Tag{
+  text-align: center;
+}
+
+@media (max-width: 768px){
+    .buttonShape{
+        margin-left: 6%;
+        margin-top: -30%;
+        }
+}

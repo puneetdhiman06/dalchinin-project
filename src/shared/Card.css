@@ -10,8 +10,9 @@
   }
   @media (max-width: 768px) {
     .card{
-      height: 25rem;
+      height: 35%;
       width: 15rem;
       margin-left: -10%;
+      margin-bottom:4rem;
     }
 }
