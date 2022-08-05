@@ -1,0 +1,52 @@
+
+.button-style{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #15B077;
+    border-radius: 4px;
+    background: #15B077;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+    float: right;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:active {
+    background: #15B077;
+    border-color: #15B077;
+  }
+        
+  .button--small {
+    font-size: 0.8rem;
+  }
+  
+  .button--big {
+    font-size: 1.5rem;
+  }
+.button-outline{
+  border: 0px;
+  background: white;
+  color: black;
+  font-weight: 600;
+  width: 3rem;
+  height: 1.9rem;
+}
+.form-control{
+  width: 2.5rem;
+  height: 1.5rem;
+  border: 0px;
+  color: #15B077;
+  text-align: center;
+}
+.input-group{
+  display: flex;
+  border: 1px solid #15B077;
+  border-radius: 4px;
+  width: 8.8rem;
+  float: right;
+}

@@ -1,0 +1,15 @@
+.checkout{
+    margin: 5%;
+}
+.heading{
+    text-align: center;
+}
+.linkA{
+    text-decoration: none;
+}
+a:visited{
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

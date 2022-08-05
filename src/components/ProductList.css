@@ -1,0 +1,39 @@
+body{
+    padding:0;
+    margin:0;
+}
+.list-style{
+    list-style: none;
+    margin: 1rem 5rem;
+    padding: 0;
+    width: 94%;
+}
+.content-list{
+    margin-top: 1.2rem;
+}
+.image-style{
+    float: left;
+    width: 14%;
+}
+.right-text{
+    float: left;
+    margin-left: 1%;
+}
+.right-btn{
+    float: right;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 550;
+}
+.decs{
+    font-size: 3rem;
+}
+.price{
+    bottom: 0;
+    font-size: 3rem;
+}
+h1{
+    padding: 0;
+    margin:0;
+}

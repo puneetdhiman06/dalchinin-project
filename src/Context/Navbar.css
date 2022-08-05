@@ -1,0 +1,23 @@
+.space{
+    margin-right:20%;
+    border: 0px;
+    background-color:#15B077;
+    color:white;
+    margin-top:-30%;
+}
+.container{
+height:50px;
+width:100%;
+background-color:#15B077;
+color:white;
+position: fixed;
+bottom:0;
+padding: 2rem 10rem;
+}
+.spaceCard{
+   height: 5%;
+   width: 15%;
+   background-color: #0e744f;
+   padding: 1%;
+}
+
