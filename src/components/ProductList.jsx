@@ -31,7 +31,6 @@ const ProductList = ({id,image,name,description,price,quantity}) => {
                         <button className="button-outline" type="button" onClick={()=>{increment(id)}}>+</button>
                     </div>
                 </div>
-                {/* )} */}
            </Card>
         </div>
         </ul>

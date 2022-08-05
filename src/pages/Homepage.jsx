@@ -10,7 +10,6 @@ const initialState={
   item:data,
   totalAmount:0,
   totalItem:0,
-  itemsSelected:[]
 }
 
 const Homepage = () => {

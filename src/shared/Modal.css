@@ -39,6 +39,16 @@
       width: 40rem;
     }
   }
+  @media (max-width: 768px) {
+    .modal {
+      left: 0;
+      width: 90%;
+      font-size: 0.6rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+  }
   
   .modal-enter {
     transform: translateY(-10rem);

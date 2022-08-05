@@ -1,0 +1,44 @@
+.inputTag{
+    text-align: center;
+    border: 1px solid #15B077;
+    box-shadow: none;
+    color: #15B077;
+    height: 2rem;
+    margin-left: 25%;
+    margin-top: 8.5%;
+}
+.formBox{
+     width: 30%; 
+    margin-left: 35%;
+    color: #15B077;
+}
+.checkout{
+    margin-top: 10%;
+}
+.button-style2{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 7%;
+}
+.button-style33{
+    margin-left:8% ;
+}
+@media (max-width: 768px) {
+    .formBox{
+        width: 50%; 
+       margin-left: 20%;
+   }
+   .inputTag{
+    height: 2rem;
+    margin-left: 15%;
+    margin-top: 25%;
+}
+.button-style33{
+    margin-top: 5rem;
+    margin-left:32% ;
+}
+.button-style2{
+    margin-top: 7rem;
+    margin-left:22% ;
+}
+}

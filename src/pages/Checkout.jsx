@@ -9,14 +9,13 @@ const Checkout = (props) => {
       <h1 className="heading">Chechout</h1>
     </div>
    <div className='listForCheckout'>
-          
-   </div>
+    </div>
 
     <div className='footer'>
         <div className="container">
             <p>
             <button className='space'>Select Payment</button>
-            <button className='space'>Continue</button> 
+            <button className='space'><a className='linkA' href="/">Back To Home Page</a></button> 
             </p>
         </div>
     </div>

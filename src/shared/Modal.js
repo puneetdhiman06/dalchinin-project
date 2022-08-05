@@ -21,9 +21,6 @@ const ModalOverlay = (props) => {
           />
         }
       </div>
-      <footer className={`modal__footer ${props.footerClass}`}>
-        {props.footer}
-      </footer>
     </div>
   );
   return ReactDOM.createPortal(content, document.getElementById("modal-hook"));

@@ -3,10 +3,10 @@
     border: 0px;
     background-color:#15B077;
     color:white;
-    margin-top:-30%;
+    margin-top:-15rem;
 }
 .container{
-height:50px;
+height:70px;
 width:100%;
 background-color:#15B077;
 color:white;
@@ -21,3 +21,20 @@ padding: 2rem 10rem;
    padding: 1%;
 }
 
+@media (max-width: 768px) {
+    .space{
+        margin-left: 0%;
+        margin-right:3%;
+    }
+    .container{
+        height:40px;
+        width:100%;
+        padding: 1rem 5rem;
+        }
+        .pTag{
+         margin-top: -0.01rem;
+        }
+}
+a:visited{
+    color: white;
+}
